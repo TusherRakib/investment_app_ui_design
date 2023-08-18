@@ -11,7 +11,9 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Obx(()=>controller.pages[controller.selectedIndex.value],),
+      body: Obx(
+        () => controller.pages[controller.selectedIndex.value],
+      ),
       bottomNavigationBar: Obx(
         () => BottomNavigationBar(
           backgroundColor: const Color(0xFFFFFBEB),

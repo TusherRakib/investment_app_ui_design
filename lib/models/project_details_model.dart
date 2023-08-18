@@ -33,13 +33,13 @@ class ProjectInfo {
   }
 
   Map<String, dynamic> toJson() => {
-    'projectTitle': projectTitle,
-    'projectType': projectType,
-    'projectDescriptions': projectDescriptions,
-    'daysLeft': daysLeft,
-    'logo': logo,
-    'estimatedProfit': estimatedProfit,
-    'riskGrade': riskGrade,
-    'repaymentDuration': repaymentDuration,
-  };
+        'projectTitle': projectTitle,
+        'projectType': projectType,
+        'projectDescriptions': projectDescriptions,
+        'daysLeft': daysLeft,
+        'logo': logo,
+        'estimatedProfit': estimatedProfit,
+        'riskGrade': riskGrade,
+        'repaymentDuration': repaymentDuration,
+      };
 }
