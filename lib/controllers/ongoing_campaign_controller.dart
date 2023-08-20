@@ -54,7 +54,7 @@ class OnGoingCampaignController extends GetxController {
       double value = double.parse(input.substring(0, input.length - 1));
       return '${value.toStringAsFixed(0)},000/-';
     } else {
-      return input; // Return as is if not in 'K' format
+      return input;
     }
   }
 

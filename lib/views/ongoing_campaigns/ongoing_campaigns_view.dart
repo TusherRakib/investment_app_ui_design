@@ -19,7 +19,7 @@ class OnGoingCampaignsView extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.message_outlined),
             onPressed: () {
-              // Handle message button press
+
             },
           ),
         ],
@@ -148,7 +148,7 @@ class OnGoingCampaignsView extends StatelessWidget {
         AppConstrains.height10,
         ElevatedButton(
           onPressed: () {
-            // Add your onPressed logic here
+
           },
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.zero,
@@ -230,7 +230,7 @@ class OnGoingCampaignsView extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.w400,
                     fontSize: 12,
-                    height: 1.33, // Line height of 16px
+                    height: 1.33,
                     letterSpacing: 0.25,
                   ),
                   textAlign: TextAlign.center,
@@ -300,7 +300,7 @@ class OnGoingCampaignsView extends StatelessWidget {
           color: Colors.transparent,
           borderRadius: BorderRadius.circular(4),
           border: Border.all(
-            color: const Color(0xFFFCD34D), // Border color #FCD34D
+            color: const Color(0xFFFCD34D),
             width: 1,
           ),
         ),
@@ -411,7 +411,7 @@ class OnGoingCampaignsView extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      // Handle cancel button action
+
                       Navigator.of(context).pop();
                     },
                     style: ElevatedButton.styleFrom(
